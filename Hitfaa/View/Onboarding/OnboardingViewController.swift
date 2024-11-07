@@ -127,9 +127,9 @@ class OnboardingViewController: BaseViewController, UICollectionViewDelegate {
 
         continueButton.snp.makeConstraints { view in
             view.bottom.equalToSuperview().inset(64)
-            view.leading.equalToSuperview().offset(270)
             view.trailing.equalToSuperview().inset(16)
             view.height.equalTo(40)
+            view.width.equalTo(98)
         }
     }
 

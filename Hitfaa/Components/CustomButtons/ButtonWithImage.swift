@@ -19,12 +19,17 @@ final class ButtonWithImage: UIButton {
                 textFont: String,
                 imageSystemName: String,
                 imageColor: UIColor,
-                imageSize: CGSize) {
+                imageSize: CGSize,
+                isSystem: Bool = true) {
         self.title = UILabel(text: text,
                              textColor: textColor,
                              font: UIFont(name: "SFProText-\(textFont)", size: 17))
-        self.image.image = UIImage(systemName: imageSystemName)?.withRenderingMode(.alwaysTemplate)
-        self.image.tintColor = imageColor
+        if isSystem {
+            self.image.image = UIImage(systemName: imageSystemName)?.withRenderingMode(.alwaysTemplate)
+            self.image.tintColor = imageColor
+        } else {
+            self.image.image = UIImage(named: imageSystemName)
+        }
         super.init(frame: .zero)
         self.backgroundColor = backgroundColor
         setupUI()
@@ -38,12 +43,16 @@ final class ButtonWithImage: UIButton {
 
         self.layer.cornerRadius = 10
 
-        self.title.textAlignment = .left
+        self.title.textAlignment = .center
 
         self.stack = UIStackView(arrangedSubviews: [title, image],
                                  axis: .horizontal,
-                                 spacing: 1)
+                                 spacing: 4)
         self.stack.distribution = .fillProportionally
+
+        self.title.isUserInteractionEnabled = false
+        self.image.isUserInteractionEnabled = false
+        self.stack.isUserInteractionEnabled = false
 
         self.addSubview(stack)
         setupConstraints()
@@ -56,6 +65,11 @@ final class ButtonWithImage: UIButton {
             view.leading.equalToSuperview().offset(16)
             view.trailing.equalToSuperview().inset(16)
             view.height.equalTo(22)
+        }
+
+        image.snp.makeConstraints { view in
+            view.height.equalTo(22)
+            view.width.equalTo(22)
         }
     }
 }

@@ -42,6 +42,36 @@
 		CC687EE42CDBCC8600CDBB27 /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EE32CDBCC8600CDBB27 /* OnboardingRouter.swift */; };
 		CC687EE72CDBCCBF00CDBB27 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EE62CDBCCBF00CDBB27 /* OnboardingCell.swift */; };
 		CC687EEB2CDBD39900CDBB27 /* ButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EEA2CDBD39900CDBB27 /* ButtonWithImage.swift */; };
+		CC687EEF2CDC969E00CDBB27 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EEE2CDC969E00CDBB27 /* TabBarViewController.swift */; };
+		CC687EF12CDC96A500CDBB27 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EF02CDC96A500CDBB27 /* TabBarRouter.swift */; };
+		CC687EF32CDC96AC00CDBB27 /* TabBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EF22CDC96AC00CDBB27 /* TabBarAssembly.swift */; };
+		CC687EFA2CDC994D00CDBB27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EF92CDC994D00CDBB27 /* HomeViewController.swift */; };
+		CC687EFC2CDC995200CDBB27 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EFB2CDC995200CDBB27 /* HomeRouter.swift */; };
+		CC687EFE2CDC995800CDBB27 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EFD2CDC995800CDBB27 /* HomeAssembly.swift */; };
+		CC687F002CDC995F00CDBB27 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EFF2CDC995F00CDBB27 /* DiaryViewController.swift */; };
+		CC687F022CDC996500CDBB27 /* DiaryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F012CDC996500CDBB27 /* DiaryRouter.swift */; };
+		CC687F042CDC996F00CDBB27 /* DiaryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F032CDC996F00CDBB27 /* DiaryAssembly.swift */; };
+		CC687F062CDC997700CDBB27 /* RelaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F052CDC997700CDBB27 /* RelaxViewController.swift */; };
+		CC687F082CDC997D00CDBB27 /* RelaxRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F072CDC997D00CDBB27 /* RelaxRouter.swift */; };
+		CC687F0A2CDC998600CDBB27 /* RelaxAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F092CDC998600CDBB27 /* RelaxAssembly.swift */; };
+		CC687F0C2CDC998D00CDBB27 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F0B2CDC998D00CDBB27 /* ResourcesViewController.swift */; };
+		CC687F0E2CDC999400CDBB27 /* ResourcesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F0D2CDC999400CDBB27 /* ResourcesRouter.swift */; };
+		CC687F102CDC999B00CDBB27 /* ResourcesAsssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F0F2CDC999B00CDBB27 /* ResourcesAsssembly.swift */; };
+		CC687F122CDC99A400CDBB27 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F112CDC99A400CDBB27 /* ChecklistViewController.swift */; };
+		CC687F142CDC99AA00CDBB27 /* ChecklistRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F132CDC99AA00CDBB27 /* ChecklistRouter.swift */; };
+		CC687F162CDC99B200CDBB27 /* ChecklistAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F152CDC99B200CDBB27 /* ChecklistAssembly.swift */; };
+		CC687F192CDCCFF900CDBB27 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F182CDCCFF900CDBB27 /* ProfileView.swift */; };
+		CC687F1C2CDCD9D500CDBB27 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F1B2CDCD9D500CDBB27 /* SettingsViewController.swift */; };
+		CC687F1E2CDCD9DE00CDBB27 /* SettingsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F1D2CDCD9DE00CDBB27 /* SettingsRouter.swift */; };
+		CC687F202CDCD9E900CDBB27 /* SettingsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F1F2CDCD9E900CDBB27 /* SettingsAssembly.swift */; };
+		CC687F232CDCDB7600CDBB27 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F222CDCDB7600CDBB27 /* SettingsView.swift */; };
+		CC687F262CDCE00500CDBB27 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F252CDCE00500CDBB27 /* ProfileViewController.swift */; };
+		CC687F282CDCE00D00CDBB27 /* ProfileAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F272CDCE00D00CDBB27 /* ProfileAssembly.swift */; };
+		CC687F2B2CDCE18600CDBB27 /* InputField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F2A2CDCE18600CDBB27 /* InputField.swift */; };
+		CC687F2D2CDCE18E00CDBB27 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F2C2CDCE18E00CDBB27 /* CustomTextField.swift */; };
+		CC687F302CDCE32400CDBB27 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F2F2CDCE32400CDBB27 /* AddPhotoView.swift */; };
+		CC687F332CDD1D7F00CDBB27 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F322CDD1D7F00CDBB27 /* StatisticView.swift */; };
+		CC687F352CDD4C1B00CDBB27 /* MotivationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F342CDD4C1B00CDBB27 /* MotivationButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +108,36 @@
 		CC687EE32CDBCC8600CDBB27 /* OnboardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
 		CC687EE62CDBCCBF00CDBB27 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
 		CC687EEA2CDBD39900CDBB27 /* ButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImage.swift; sourceTree = "<group>"; };
+		CC687EEE2CDC969E00CDBB27 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		CC687EF02CDC96A500CDBB27 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		CC687EF22CDC96AC00CDBB27 /* TabBarAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAssembly.swift; sourceTree = "<group>"; };
+		CC687EF92CDC994D00CDBB27 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC687EFB2CDC995200CDBB27 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		CC687EFD2CDC995800CDBB27 /* HomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
+		CC687EFF2CDC995F00CDBB27 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
+		CC687F012CDC996500CDBB27 /* DiaryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRouter.swift; sourceTree = "<group>"; };
+		CC687F032CDC996F00CDBB27 /* DiaryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAssembly.swift; sourceTree = "<group>"; };
+		CC687F052CDC997700CDBB27 /* RelaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxViewController.swift; sourceTree = "<group>"; };
+		CC687F072CDC997D00CDBB27 /* RelaxRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxRouter.swift; sourceTree = "<group>"; };
+		CC687F092CDC998600CDBB27 /* RelaxAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxAssembly.swift; sourceTree = "<group>"; };
+		CC687F0B2CDC998D00CDBB27 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
+		CC687F0D2CDC999400CDBB27 /* ResourcesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesRouter.swift; sourceTree = "<group>"; };
+		CC687F0F2CDC999B00CDBB27 /* ResourcesAsssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesAsssembly.swift; sourceTree = "<group>"; };
+		CC687F112CDC99A400CDBB27 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
+		CC687F132CDC99AA00CDBB27 /* ChecklistRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistRouter.swift; sourceTree = "<group>"; };
+		CC687F152CDC99B200CDBB27 /* ChecklistAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistAssembly.swift; sourceTree = "<group>"; };
+		CC687F182CDCCFF900CDBB27 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CC687F1B2CDCD9D500CDBB27 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CC687F1D2CDCD9DE00CDBB27 /* SettingsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRouter.swift; sourceTree = "<group>"; };
+		CC687F1F2CDCD9E900CDBB27 /* SettingsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAssembly.swift; sourceTree = "<group>"; };
+		CC687F222CDCDB7600CDBB27 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CC687F252CDCE00500CDBB27 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CC687F272CDCE00D00CDBB27 /* ProfileAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAssembly.swift; sourceTree = "<group>"; };
+		CC687F2A2CDCE18600CDBB27 /* InputField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputField.swift; sourceTree = "<group>"; };
+		CC687F2C2CDCE18E00CDBB27 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		CC687F2F2CDCE32400CDBB27 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
+		CC687F322CDD1D7F00CDBB27 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		CC687F342CDD4C1B00CDBB27 /* MotivationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +222,12 @@
 		CC687EAD2CDBC14800CDBB27 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CC687EF82CDC993D00CDBB27 /* Checklist */,
+				CC687EF72CDC993400CDBB27 /* Resources */,
+				CC687EF62CDC993000CDBB27 /* Relax */,
+				CC687EF52CDC992A00CDBB27 /* Diary */,
+				CC687EF42CDC992600CDBB27 /* Home */,
+				CC687EED2CDC969100CDBB27 /* TabBar */,
 				CC687EDE2CDBCC6B00CDBB27 /* Onboarding */,
 				CC687EBE2CDBC26400CDBB27 /* UntilOnboarding */,
 			);
@@ -194,7 +260,11 @@
 		CC687EB02CDBC15900CDBB27 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				CC687EEA2CDBD39900CDBB27 /* ButtonWithImage.swift */,
+				CC687F312CDD1D7200CDBB27 /* StatisticView */,
+				CC687F2E2CDCE31A00CDBB27 /* AddPhotoView */,
+				CC687F292CDCE17100CDBB27 /* InputField */,
+				CC687F212CDCDB6C00CDBB27 /* SettingsView */,
+				CC687F172CDCCFE800CDBB27 /* CustomButtons */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -246,6 +316,130 @@
 				CC687EE62CDBCCBF00CDBB27 /* OnboardingCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC687EED2CDC969100CDBB27 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F242CDCDF9900CDBB27 /* Profile */,
+				CC687F1A2CDCD9CA00CDBB27 /* Settings */,
+				CC687EEE2CDC969E00CDBB27 /* TabBarViewController.swift */,
+				CC687EF02CDC96A500CDBB27 /* TabBarRouter.swift */,
+				CC687EF22CDC96AC00CDBB27 /* TabBarAssembly.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CC687EF42CDC992600CDBB27 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CC687EF92CDC994D00CDBB27 /* HomeViewController.swift */,
+				CC687EFB2CDC995200CDBB27 /* HomeRouter.swift */,
+				CC687EFD2CDC995800CDBB27 /* HomeAssembly.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CC687EF52CDC992A00CDBB27 /* Diary */ = {
+			isa = PBXGroup;
+			children = (
+				CC687EFF2CDC995F00CDBB27 /* DiaryViewController.swift */,
+				CC687F012CDC996500CDBB27 /* DiaryRouter.swift */,
+				CC687F032CDC996F00CDBB27 /* DiaryAssembly.swift */,
+			);
+			path = Diary;
+			sourceTree = "<group>";
+		};
+		CC687EF62CDC993000CDBB27 /* Relax */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F052CDC997700CDBB27 /* RelaxViewController.swift */,
+				CC687F072CDC997D00CDBB27 /* RelaxRouter.swift */,
+				CC687F092CDC998600CDBB27 /* RelaxAssembly.swift */,
+			);
+			path = Relax;
+			sourceTree = "<group>";
+		};
+		CC687EF72CDC993400CDBB27 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F0B2CDC998D00CDBB27 /* ResourcesViewController.swift */,
+				CC687F0D2CDC999400CDBB27 /* ResourcesRouter.swift */,
+				CC687F0F2CDC999B00CDBB27 /* ResourcesAsssembly.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CC687EF82CDC993D00CDBB27 /* Checklist */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F112CDC99A400CDBB27 /* ChecklistViewController.swift */,
+				CC687F132CDC99AA00CDBB27 /* ChecklistRouter.swift */,
+				CC687F152CDC99B200CDBB27 /* ChecklistAssembly.swift */,
+			);
+			path = Checklist;
+			sourceTree = "<group>";
+		};
+		CC687F172CDCCFE800CDBB27 /* CustomButtons */ = {
+			isa = PBXGroup;
+			children = (
+				CC687EEA2CDBD39900CDBB27 /* ButtonWithImage.swift */,
+				CC687F182CDCCFF900CDBB27 /* ProfileView.swift */,
+				CC687F342CDD4C1B00CDBB27 /* MotivationButton.swift */,
+			);
+			path = CustomButtons;
+			sourceTree = "<group>";
+		};
+		CC687F1A2CDCD9CA00CDBB27 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F1B2CDCD9D500CDBB27 /* SettingsViewController.swift */,
+				CC687F1D2CDCD9DE00CDBB27 /* SettingsRouter.swift */,
+				CC687F1F2CDCD9E900CDBB27 /* SettingsAssembly.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		CC687F212CDCDB6C00CDBB27 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F222CDCDB7600CDBB27 /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		CC687F242CDCDF9900CDBB27 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F252CDCE00500CDBB27 /* ProfileViewController.swift */,
+				CC687F272CDCE00D00CDBB27 /* ProfileAssembly.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CC687F292CDCE17100CDBB27 /* InputField */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F2A2CDCE18600CDBB27 /* InputField.swift */,
+				CC687F2C2CDCE18E00CDBB27 /* CustomTextField.swift */,
+			);
+			path = InputField;
+			sourceTree = "<group>";
+		};
+		CC687F2E2CDCE31A00CDBB27 /* AddPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F2F2CDCE32400CDBB27 /* AddPhotoView.swift */,
+			);
+			path = AddPhotoView;
+			sourceTree = "<group>";
+		};
+		CC687F312CDD1D7200CDBB27 /* StatisticView */ = {
+			isa = PBXGroup;
+			children = (
+				CC687F322CDD1D7F00CDBB27 /* StatisticView.swift */,
+			);
+			path = StatisticView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,27 +531,57 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC60420F2CD4B5BB00E8321B /* AppDelegate.swift in Sources */,
+				CC687F232CDCDB7600CDBB27 /* SettingsView.swift in Sources */,
 				CC687ECB2CDBC2BC00CDBB27 /* UIColor.swift in Sources */,
 				CC687EC72CDBC2B000CDBB27 /* TableView.swift in Sources */,
+				CC687F142CDC99AA00CDBB27 /* ChecklistRouter.swift in Sources */,
+				CC687F082CDC997D00CDBB27 /* RelaxRouter.swift in Sources */,
 				CC687EC22CDBC27800CDBB27 /* UntilOnboardingAssembly.swift in Sources */,
+				CC687EF12CDC96A500CDBB27 /* TabBarRouter.swift in Sources */,
+				CC687F262CDCE00500CDBB27 /* ProfileViewController.swift in Sources */,
+				CC687F202CDCD9E900CDBB27 /* SettingsAssembly.swift in Sources */,
+				CC687F0E2CDC999400CDBB27 /* ResourcesRouter.swift in Sources */,
+				CC687F0C2CDC998D00CDBB27 /* ResourcesViewController.swift in Sources */,
+				CC687F0A2CDC998600CDBB27 /* RelaxAssembly.swift in Sources */,
+				CC687F102CDC999B00CDBB27 /* ResourcesAsssembly.swift in Sources */,
 				CC687EE02CDBCC7700CDBB27 /* OnboardingViewController.swift in Sources */,
 				CC687EB82CDBC18B00CDBB27 /* BaseRouter.swift in Sources */,
+				CC687F042CDC996F00CDBB27 /* DiaryAssembly.swift in Sources */,
+				CC687F282CDCE00D00CDBB27 /* ProfileAssembly.swift in Sources */,
+				CC687F352CDD4C1B00CDBB27 /* MotivationButton.swift in Sources */,
 				CC687EE22CDBCC7F00CDBB27 /* OnboardingAssembly.swift in Sources */,
+				CC687F062CDC997700CDBB27 /* RelaxViewController.swift in Sources */,
 				CC687EB62CDBC17F00CDBB27 /* ReusableView.swift in Sources */,
+				CC687F332CDD1D7F00CDBB27 /* StatisticView.swift in Sources */,
+				CC687EFC2CDC995200CDBB27 /* HomeRouter.swift in Sources */,
+				CC687EFE2CDC995800CDBB27 /* HomeAssembly.swift in Sources */,
+				CC687F022CDC996500CDBB27 /* DiaryRouter.swift in Sources */,
+				CC687EF32CDC96AC00CDBB27 /* TabBarAssembly.swift in Sources */,
+				CC687F302CDCE32400CDBB27 /* AddPhotoView.swift in Sources */,
 				CC687ECF2CDBC2C800CDBB27 /* UILabel.swift in Sources */,
 				CC687EEB2CDBD39900CDBB27 /* ButtonWithImage.swift in Sources */,
 				CC687EC92CDBC2B600CDBB27 /* CollectionView.swift in Sources */,
 				CC687EE72CDBCCBF00CDBB27 /* OnboardingCell.swift in Sources */,
+				CC687F002CDC995F00CDBB27 /* DiaryViewController.swift in Sources */,
+				CC687F122CDC99A400CDBB27 /* ChecklistViewController.swift in Sources */,
+				CC687EFA2CDC994D00CDBB27 /* HomeViewController.swift in Sources */,
 				CC687EBB2CDBC1C000CDBB27 /* ServiceAssembly.swift in Sources */,
 				CC687EC42CDBC28000CDBB27 /* UntilOnboardingRouter.swift in Sources */,
+				CC687F2D2CDCE18E00CDBB27 /* CustomTextField.swift in Sources */,
 				CC687EB42CDBC17700CDBB27 /* BaseViewController.swift in Sources */,
 				CC687ECD2CDBC2C200CDBB27 /* UIDevice.swift in Sources */,
+				CC687EEF2CDC969E00CDBB27 /* TabBarViewController.swift in Sources */,
+				CC687F1C2CDCD9D500CDBB27 /* SettingsViewController.swift in Sources */,
+				CC687F2B2CDCE18600CDBB27 /* InputField.swift in Sources */,
 				CC687ED32CDBC2D400CDBB27 /* String.swift in Sources */,
 				CC687EBD2CDBC1CA00CDBB27 /* ViewControllerFactory.swift in Sources */,
+				CC687F162CDC99B200CDBB27 /* ChecklistAssembly.swift in Sources */,
+				CC687F1E2CDCD9DE00CDBB27 /* SettingsRouter.swift in Sources */,
 				CC687ED12CDBC2CD00CDBB27 /* StackView.swift in Sources */,
 				CC6042112CD4B5BB00E8321B /* SceneDelegate.swift in Sources */,
 				CC687EC02CDBC27000CDBB27 /* UntilOnboardingViewController.swift in Sources */,
 				CC687EB22CDBC17100CDBB27 /* Setupable.swift in Sources */,
+				CC687F192CDCCFF900CDBB27 /* ProfileView.swift in Sources */,
 				CC687EE42CDBCC8600CDBB27 /* OnboardingRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
