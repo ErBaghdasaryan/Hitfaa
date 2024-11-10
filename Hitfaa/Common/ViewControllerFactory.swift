@@ -69,11 +69,39 @@ final class ViewControllerFactory {
         return viewController
     }
 
+    static func makeEditDairyViewController(navigationModel: DairyNavigationModel) -> EditDairyViewController {
+        let assembler = Assembler(commonAssemblies + [EditDairyAssembly()])
+        let viewController = EditDairyViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditDairyViewModel.self, argument: navigationModel)
+        return viewController
+    }
+
+    static func makeAddDairyViewController(navigationModel: AddNavigationModel) -> AddDairyViewController {
+        let assembler = Assembler(commonAssemblies + [AddDairyAssembly()])
+        let viewController = AddDairyViewController()
+        viewController.viewModel = assembler.resolver.resolve(IAddDairyViewModel.self, argument: navigationModel)
+        return viewController
+    }
+
     //MARK: - Relax
     static func makeRelaxViewController() -> RelaxViewController {
         let assembler = Assembler(commonAssemblies + [RelaxAssembly()])
         let viewController = RelaxViewController()
         viewController.viewModel = assembler.resolver.resolve(IRelaxViewModel.self)
+        return viewController
+    }
+
+    static func makeAddRelaxViewController(navigationModel: AddNavigationModel) -> AddRelaxViewController {
+        let assembler = Assembler(commonAssemblies + [AddRelaxAssembly()])
+        let viewController = AddRelaxViewController()
+        viewController.viewModel = assembler.resolver.resolve(IAddRelaxViewModel.self, argument: navigationModel)
+        return viewController
+    }
+
+    static func makeEditRelaxViewController(navigationModel: RelaxNavigationModel) -> EditRelaxViewController {
+        let assembler = Assembler(commonAssemblies + [EditRelaxAssembly()])
+        let viewController = EditRelaxViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditRelaxViewModel.self, argument: navigationModel)
         return viewController
     }
 
@@ -85,11 +113,25 @@ final class ViewControllerFactory {
         return viewController
     }
 
+    static func makeEditResourseViewController(navigationModel: ResourceNavigationModel) -> EditResourceViewController {
+        let assembler = Assembler(commonAssemblies + [EditResourceAssembly()])
+        let viewController = EditResourceViewController()
+        viewController.viewModel = assembler.resolver.resolve(IEditResourcesViewModel.self, argument: navigationModel)
+        return viewController
+    }
+
     //MARK: - Checklist
     static func makeChecklistViewController() -> ChecklistViewController {
         let assembler = Assembler(commonAssemblies + [ChecklistAssembly()])
         let viewController = ChecklistViewController()
         viewController.viewModel = assembler.resolver.resolve(IChecklistViewModel.self)
+        return viewController
+    }
+
+    static func makeMoneyCategoryViewController(navigationModel: CheckListNavigationModel) -> MoneyCategoryViewController {
+        let assembler = Assembler(commonAssemblies + [MoneyCategoryAssembly()])
+        let viewController = MoneyCategoryViewController()
+        viewController.viewModel = assembler.resolver.resolve(IMoneyCategoryViewModel.self, argument: navigationModel)
         return viewController
     }
 }

@@ -16,6 +16,28 @@
 		CC6042382CD4B83A00E8321B /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = CC6042372CD4B83A00E8321B /* SwinjectAutoregistration */; };
 		CC60423D2CD4B89F00E8321B /* HitfaaModel in Frameworks */ = {isa = PBXBuildFile; productRef = CC60423C2CD4B89F00E8321B /* HitfaaModel */; };
 		CC60423F2CD4B89F00E8321B /* HitfaaViewModel in Frameworks */ = {isa = PBXBuildFile; productRef = CC60423E2CD4B89F00E8321B /* HitfaaViewModel */; };
+		CC679D8C2CDDFF5800DAB639 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D8B2CDDFF5800DAB639 /* DiaryTableViewCell.swift */; };
+		CC679D8E2CDE009100DAB639 /* AddDairyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D8D2CDE009100DAB639 /* AddDairyTableViewCell.swift */; };
+		CC679D912CDE02AE00DAB639 /* AddDairyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D902CDE02AE00DAB639 /* AddDairyViewController.swift */; };
+		CC679D932CDE02B500DAB639 /* AddDairyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D922CDE02B500DAB639 /* AddDairyAssembly.swift */; };
+		CC679D962CDE03F600DAB639 /* HeaderField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D952CDE03F600DAB639 /* HeaderField.swift */; };
+		CC679D982CDE0CCE00DAB639 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D972CDE0CCE00DAB639 /* TextView.swift */; };
+		CC679D9B2CDE123E00DAB639 /* EditDairyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D9A2CDE123E00DAB639 /* EditDairyViewController.swift */; };
+		CC679D9D2CDE124500DAB639 /* EditDairyAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D9C2CDE124500DAB639 /* EditDairyAssembly.swift */; };
+		CC679DA02CDE178D00DAB639 /* RelaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D9F2CDE178D00DAB639 /* RelaxTableViewCell.swift */; };
+		CC679DA22CDE179C00DAB639 /* AddRelaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DA12CDE179C00DAB639 /* AddRelaxTableViewCell.swift */; };
+		CC679DA52CDE1E7200DAB639 /* AddRelaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DA42CDE1E7200DAB639 /* AddRelaxViewController.swift */; };
+		CC679DA72CDE1E7800DAB639 /* AddRelaxAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DA62CDE1E7800DAB639 /* AddRelaxAssembly.swift */; };
+		CC679DAA2CDE237E00DAB639 /* EditRelaxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DA92CDE237E00DAB639 /* EditRelaxViewController.swift */; };
+		CC679DAC2CDE238600DAB639 /* EditRelaxAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DAB2CDE238600DAB639 /* EditRelaxAssembly.swift */; };
+		CC679DAF2CDE3A8A00DAB639 /* ResourcesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DAE2CDE3A8A00DAB639 /* ResourcesTableViewCell.swift */; };
+		CC679DB22CDE3DA900DAB639 /* EditResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DB12CDE3DA900DAB639 /* EditResourceViewController.swift */; };
+		CC679DB42CDE3DB200DAB639 /* EditResourceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DB32CDE3DB200DAB639 /* EditResourceAssembly.swift */; };
+		CC679DB72CDE482700DAB639 /* ChecklistTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DB62CDE482700DAB639 /* ChecklistTableViewCell.swift */; };
+		CC679DBA2CDE5DF600DAB639 /* MoneyCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DB92CDE5DF600DAB639 /* MoneyCategoryViewController.swift */; };
+		CC679DBC2CDE5DFE00DAB639 /* MoneyCategoryAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DBB2CDE5DFE00DAB639 /* MoneyCategoryAssembly.swift */; };
+		CC679DBF2CDE63E600DAB639 /* DistributionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DBE2CDE63E600DAB639 /* DistributionView.swift */; };
+		CC679DC22CDE72DA00DAB639 /* CongratsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679DC12CDE72DA00DAB639 /* CongratsView.swift */; };
 		CC687EB22CDBC17100CDBB27 /* Setupable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EB12CDBC17100CDBB27 /* Setupable.swift */; };
 		CC687EB42CDBC17700CDBB27 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EB32CDBC17700CDBB27 /* BaseViewController.swift */; };
 		CC687EB62CDBC17F00CDBB27 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EB52CDBC17F00CDBB27 /* ReusableView.swift */; };
@@ -82,6 +104,28 @@
 		CC60421C2CD4B5BC00E8321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC6042272CD4B7DD00E8321B /* HitfaaViewModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HitfaaViewModel; sourceTree = "<group>"; };
 		CC6042282CD4B7ED00E8321B /* HitfaaModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HitfaaModel; sourceTree = "<group>"; };
+		CC679D8B2CDDFF5800DAB639 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
+		CC679D8D2CDE009100DAB639 /* AddDairyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDairyTableViewCell.swift; sourceTree = "<group>"; };
+		CC679D902CDE02AE00DAB639 /* AddDairyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDairyViewController.swift; sourceTree = "<group>"; };
+		CC679D922CDE02B500DAB639 /* AddDairyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDairyAssembly.swift; sourceTree = "<group>"; };
+		CC679D952CDE03F600DAB639 /* HeaderField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderField.swift; sourceTree = "<group>"; };
+		CC679D972CDE0CCE00DAB639 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		CC679D9A2CDE123E00DAB639 /* EditDairyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDairyViewController.swift; sourceTree = "<group>"; };
+		CC679D9C2CDE124500DAB639 /* EditDairyAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDairyAssembly.swift; sourceTree = "<group>"; };
+		CC679D9F2CDE178D00DAB639 /* RelaxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelaxTableViewCell.swift; sourceTree = "<group>"; };
+		CC679DA12CDE179C00DAB639 /* AddRelaxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRelaxTableViewCell.swift; sourceTree = "<group>"; };
+		CC679DA42CDE1E7200DAB639 /* AddRelaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRelaxViewController.swift; sourceTree = "<group>"; };
+		CC679DA62CDE1E7800DAB639 /* AddRelaxAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRelaxAssembly.swift; sourceTree = "<group>"; };
+		CC679DA92CDE237E00DAB639 /* EditRelaxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRelaxViewController.swift; sourceTree = "<group>"; };
+		CC679DAB2CDE238600DAB639 /* EditRelaxAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRelaxAssembly.swift; sourceTree = "<group>"; };
+		CC679DAE2CDE3A8A00DAB639 /* ResourcesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesTableViewCell.swift; sourceTree = "<group>"; };
+		CC679DB12CDE3DA900DAB639 /* EditResourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditResourceViewController.swift; sourceTree = "<group>"; };
+		CC679DB32CDE3DB200DAB639 /* EditResourceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditResourceAssembly.swift; sourceTree = "<group>"; };
+		CC679DB62CDE482700DAB639 /* ChecklistTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistTableViewCell.swift; sourceTree = "<group>"; };
+		CC679DB92CDE5DF600DAB639 /* MoneyCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCategoryViewController.swift; sourceTree = "<group>"; };
+		CC679DBB2CDE5DFE00DAB639 /* MoneyCategoryAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCategoryAssembly.swift; sourceTree = "<group>"; };
+		CC679DBE2CDE63E600DAB639 /* DistributionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributionView.swift; sourceTree = "<group>"; };
+		CC679DC12CDE72DA00DAB639 /* CongratsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsView.swift; sourceTree = "<group>"; };
 		CC687EB12CDBC17100CDBB27 /* Setupable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setupable.swift; sourceTree = "<group>"; };
 		CC687EB32CDBC17700CDBB27 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		CC687EB52CDBC17F00CDBB27 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
@@ -199,6 +243,118 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CC679D8A2CDDFF4E00DAB639 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC679D8B2CDDFF5800DAB639 /* DiaryTableViewCell.swift */,
+				CC679D8D2CDE009100DAB639 /* AddDairyTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC679D8F2CDE029F00DAB639 /* AddDairy */ = {
+			isa = PBXGroup;
+			children = (
+				CC679D902CDE02AE00DAB639 /* AddDairyViewController.swift */,
+				CC679D922CDE02B500DAB639 /* AddDairyAssembly.swift */,
+			);
+			path = AddDairy;
+			sourceTree = "<group>";
+		};
+		CC679D942CDE03EA00DAB639 /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				CC679D952CDE03F600DAB639 /* HeaderField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		CC679D992CDE123400DAB639 /* EditDairy */ = {
+			isa = PBXGroup;
+			children = (
+				CC679D9A2CDE123E00DAB639 /* EditDairyViewController.swift */,
+				CC679D9C2CDE124500DAB639 /* EditDairyAssembly.swift */,
+			);
+			path = EditDairy;
+			sourceTree = "<group>";
+		};
+		CC679D9E2CDE178400DAB639 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC679D9F2CDE178D00DAB639 /* RelaxTableViewCell.swift */,
+				CC679DA12CDE179C00DAB639 /* AddRelaxTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC679DA32CDE1E6700DAB639 /* AddRelax */ = {
+			isa = PBXGroup;
+			children = (
+				CC679DA42CDE1E7200DAB639 /* AddRelaxViewController.swift */,
+				CC679DA62CDE1E7800DAB639 /* AddRelaxAssembly.swift */,
+			);
+			path = AddRelax;
+			sourceTree = "<group>";
+		};
+		CC679DA82CDE237100DAB639 /* EditRelax */ = {
+			isa = PBXGroup;
+			children = (
+				CC679DA92CDE237E00DAB639 /* EditRelaxViewController.swift */,
+				CC679DAB2CDE238600DAB639 /* EditRelaxAssembly.swift */,
+			);
+			path = EditRelax;
+			sourceTree = "<group>";
+		};
+		CC679DAD2CDE3A7C00DAB639 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC679DAE2CDE3A8A00DAB639 /* ResourcesTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC679DB02CDE3D9B00DAB639 /* EditResource */ = {
+			isa = PBXGroup;
+			children = (
+				CC679DB12CDE3DA900DAB639 /* EditResourceViewController.swift */,
+				CC679DB32CDE3DB200DAB639 /* EditResourceAssembly.swift */,
+			);
+			path = EditResource;
+			sourceTree = "<group>";
+		};
+		CC679DB52CDE481900DAB639 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC679DB62CDE482700DAB639 /* ChecklistTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CC679DB82CDE5DD700DAB639 /* MoneyCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CC679DB92CDE5DF600DAB639 /* MoneyCategoryViewController.swift */,
+				CC679DBB2CDE5DFE00DAB639 /* MoneyCategoryAssembly.swift */,
+			);
+			path = MoneyCategory;
+			sourceTree = "<group>";
+		};
+		CC679DBD2CDE63D900DAB639 /* DistributionView */ = {
+			isa = PBXGroup;
+			children = (
+				CC679DBE2CDE63E600DAB639 /* DistributionView.swift */,
+			);
+			path = DistributionView;
+			sourceTree = "<group>";
+		};
+		CC679DC02CDE72CF00DAB639 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				CC679DC12CDE72DA00DAB639 /* CongratsView.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
 		CC687EAB2CDBC13E00CDBB27 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +416,9 @@
 		CC687EB02CDBC15900CDBB27 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CC679DC02CDE72CF00DAB639 /* HomeViews */,
+				CC679DBD2CDE63D900DAB639 /* DistributionView */,
+				CC679D942CDE03EA00DAB639 /* TextFields */,
 				CC687F312CDD1D7200CDBB27 /* StatisticView */,
 				CC687F2E2CDCE31A00CDBB27 /* AddPhotoView */,
 				CC687F292CDCE17100CDBB27 /* InputField */,
@@ -343,6 +502,9 @@
 		CC687EF52CDC992A00CDBB27 /* Diary */ = {
 			isa = PBXGroup;
 			children = (
+				CC679D992CDE123400DAB639 /* EditDairy */,
+				CC679D8F2CDE029F00DAB639 /* AddDairy */,
+				CC679D8A2CDDFF4E00DAB639 /* Cell */,
 				CC687EFF2CDC995F00CDBB27 /* DiaryViewController.swift */,
 				CC687F012CDC996500CDBB27 /* DiaryRouter.swift */,
 				CC687F032CDC996F00CDBB27 /* DiaryAssembly.swift */,
@@ -353,6 +515,9 @@
 		CC687EF62CDC993000CDBB27 /* Relax */ = {
 			isa = PBXGroup;
 			children = (
+				CC679DA82CDE237100DAB639 /* EditRelax */,
+				CC679DA32CDE1E6700DAB639 /* AddRelax */,
+				CC679D9E2CDE178400DAB639 /* Cell */,
 				CC687F052CDC997700CDBB27 /* RelaxViewController.swift */,
 				CC687F072CDC997D00CDBB27 /* RelaxRouter.swift */,
 				CC687F092CDC998600CDBB27 /* RelaxAssembly.swift */,
@@ -363,6 +528,8 @@
 		CC687EF72CDC993400CDBB27 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CC679DB02CDE3D9B00DAB639 /* EditResource */,
+				CC679DAD2CDE3A7C00DAB639 /* Cell */,
 				CC687F0B2CDC998D00CDBB27 /* ResourcesViewController.swift */,
 				CC687F0D2CDC999400CDBB27 /* ResourcesRouter.swift */,
 				CC687F0F2CDC999B00CDBB27 /* ResourcesAsssembly.swift */,
@@ -373,6 +540,8 @@
 		CC687EF82CDC993D00CDBB27 /* Checklist */ = {
 			isa = PBXGroup;
 			children = (
+				CC679DB82CDE5DD700DAB639 /* MoneyCategory */,
+				CC679DB52CDE481900DAB639 /* Cell */,
 				CC687F112CDC99A400CDBB27 /* ChecklistViewController.swift */,
 				CC687F132CDC99AA00CDBB27 /* ChecklistRouter.swift */,
 				CC687F152CDC99B200CDBB27 /* ChecklistAssembly.swift */,
@@ -422,6 +591,7 @@
 			children = (
 				CC687F2A2CDCE18600CDBB27 /* InputField.swift */,
 				CC687F2C2CDCE18E00CDBB27 /* CustomTextField.swift */,
+				CC679D972CDE0CCE00DAB639 /* TextView.swift */,
 			);
 			path = InputField;
 			sourceTree = "<group>";
@@ -532,17 +702,24 @@
 			files = (
 				CC60420F2CD4B5BB00E8321B /* AppDelegate.swift in Sources */,
 				CC687F232CDCDB7600CDBB27 /* SettingsView.swift in Sources */,
+				CC679DA22CDE179C00DAB639 /* AddRelaxTableViewCell.swift in Sources */,
 				CC687ECB2CDBC2BC00CDBB27 /* UIColor.swift in Sources */,
 				CC687EC72CDBC2B000CDBB27 /* TableView.swift in Sources */,
+				CC679DA02CDE178D00DAB639 /* RelaxTableViewCell.swift in Sources */,
 				CC687F142CDC99AA00CDBB27 /* ChecklistRouter.swift in Sources */,
+				CC679D982CDE0CCE00DAB639 /* TextView.swift in Sources */,
+				CC679D9D2CDE124500DAB639 /* EditDairyAssembly.swift in Sources */,
 				CC687F082CDC997D00CDBB27 /* RelaxRouter.swift in Sources */,
 				CC687EC22CDBC27800CDBB27 /* UntilOnboardingAssembly.swift in Sources */,
 				CC687EF12CDC96A500CDBB27 /* TabBarRouter.swift in Sources */,
+				CC679DA72CDE1E7800DAB639 /* AddRelaxAssembly.swift in Sources */,
 				CC687F262CDCE00500CDBB27 /* ProfileViewController.swift in Sources */,
 				CC687F202CDCD9E900CDBB27 /* SettingsAssembly.swift in Sources */,
 				CC687F0E2CDC999400CDBB27 /* ResourcesRouter.swift in Sources */,
 				CC687F0C2CDC998D00CDBB27 /* ResourcesViewController.swift in Sources */,
+				CC679DAF2CDE3A8A00DAB639 /* ResourcesTableViewCell.swift in Sources */,
 				CC687F0A2CDC998600CDBB27 /* RelaxAssembly.swift in Sources */,
+				CC679D9B2CDE123E00DAB639 /* EditDairyViewController.swift in Sources */,
 				CC687F102CDC999B00CDBB27 /* ResourcesAsssembly.swift in Sources */,
 				CC687EE02CDBCC7700CDBB27 /* OnboardingViewController.swift in Sources */,
 				CC687EB82CDBC18B00CDBB27 /* BaseRouter.swift in Sources */,
@@ -550,27 +727,39 @@
 				CC687F282CDCE00D00CDBB27 /* ProfileAssembly.swift in Sources */,
 				CC687F352CDD4C1B00CDBB27 /* MotivationButton.swift in Sources */,
 				CC687EE22CDBCC7F00CDBB27 /* OnboardingAssembly.swift in Sources */,
+				CC679DB72CDE482700DAB639 /* ChecklistTableViewCell.swift in Sources */,
 				CC687F062CDC997700CDBB27 /* RelaxViewController.swift in Sources */,
 				CC687EB62CDBC17F00CDBB27 /* ReusableView.swift in Sources */,
+				CC679DAC2CDE238600DAB639 /* EditRelaxAssembly.swift in Sources */,
+				CC679D932CDE02B500DAB639 /* AddDairyAssembly.swift in Sources */,
 				CC687F332CDD1D7F00CDBB27 /* StatisticView.swift in Sources */,
 				CC687EFC2CDC995200CDBB27 /* HomeRouter.swift in Sources */,
+				CC679DBF2CDE63E600DAB639 /* DistributionView.swift in Sources */,
+				CC679D912CDE02AE00DAB639 /* AddDairyViewController.swift in Sources */,
 				CC687EFE2CDC995800CDBB27 /* HomeAssembly.swift in Sources */,
+				CC679DC22CDE72DA00DAB639 /* CongratsView.swift in Sources */,
 				CC687F022CDC996500CDBB27 /* DiaryRouter.swift in Sources */,
 				CC687EF32CDC96AC00CDBB27 /* TabBarAssembly.swift in Sources */,
 				CC687F302CDCE32400CDBB27 /* AddPhotoView.swift in Sources */,
 				CC687ECF2CDBC2C800CDBB27 /* UILabel.swift in Sources */,
 				CC687EEB2CDBD39900CDBB27 /* ButtonWithImage.swift in Sources */,
 				CC687EC92CDBC2B600CDBB27 /* CollectionView.swift in Sources */,
+				CC679DB42CDE3DB200DAB639 /* EditResourceAssembly.swift in Sources */,
 				CC687EE72CDBCCBF00CDBB27 /* OnboardingCell.swift in Sources */,
+				CC679DB22CDE3DA900DAB639 /* EditResourceViewController.swift in Sources */,
 				CC687F002CDC995F00CDBB27 /* DiaryViewController.swift in Sources */,
 				CC687F122CDC99A400CDBB27 /* ChecklistViewController.swift in Sources */,
 				CC687EFA2CDC994D00CDBB27 /* HomeViewController.swift in Sources */,
 				CC687EBB2CDBC1C000CDBB27 /* ServiceAssembly.swift in Sources */,
 				CC687EC42CDBC28000CDBB27 /* UntilOnboardingRouter.swift in Sources */,
+				CC679D962CDE03F600DAB639 /* HeaderField.swift in Sources */,
 				CC687F2D2CDCE18E00CDBB27 /* CustomTextField.swift in Sources */,
+				CC679DBC2CDE5DFE00DAB639 /* MoneyCategoryAssembly.swift in Sources */,
 				CC687EB42CDBC17700CDBB27 /* BaseViewController.swift in Sources */,
 				CC687ECD2CDBC2C200CDBB27 /* UIDevice.swift in Sources */,
 				CC687EEF2CDC969E00CDBB27 /* TabBarViewController.swift in Sources */,
+				CC679D8E2CDE009100DAB639 /* AddDairyTableViewCell.swift in Sources */,
+				CC679D8C2CDDFF5800DAB639 /* DiaryTableViewCell.swift in Sources */,
 				CC687F1C2CDCD9D500CDBB27 /* SettingsViewController.swift in Sources */,
 				CC687F2B2CDCE18600CDBB27 /* InputField.swift in Sources */,
 				CC687ED32CDBC2D400CDBB27 /* String.swift in Sources */,
@@ -579,8 +768,11 @@
 				CC687F1E2CDCD9DE00CDBB27 /* SettingsRouter.swift in Sources */,
 				CC687ED12CDBC2CD00CDBB27 /* StackView.swift in Sources */,
 				CC6042112CD4B5BB00E8321B /* SceneDelegate.swift in Sources */,
+				CC679DA52CDE1E7200DAB639 /* AddRelaxViewController.swift in Sources */,
 				CC687EC02CDBC27000CDBB27 /* UntilOnboardingViewController.swift in Sources */,
+				CC679DBA2CDE5DF600DAB639 /* MoneyCategoryViewController.swift in Sources */,
 				CC687EB22CDBC17100CDBB27 /* Setupable.swift in Sources */,
+				CC679DAA2CDE237E00DAB639 /* EditRelaxViewController.swift in Sources */,
 				CC687F192CDCCFF900CDBB27 /* ProfileView.swift in Sources */,
 				CC687EE42CDBCC8600CDBB27 /* OnboardingRouter.swift in Sources */,
 			);
@@ -717,7 +909,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5PTH9U4CB9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hitfaa/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "game: помощь в борьбе с зависимостью";
@@ -750,7 +942,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5PTH9U4CB9;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hitfaa/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "game: помощь в борьбе с зависимостью";
