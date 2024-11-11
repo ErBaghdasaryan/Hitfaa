@@ -181,6 +181,16 @@ extension HomeViewController: IViewModelableController {
 extension HomeViewController {
     private func makeButtonActions() {
         motivationMessage.addTarget(self, action: #selector(motivationTapped), for: .touchUpInside)
+        abstained.addTarget(self, action: #selector(showAbstainedView), for: .touchUpInside)
+        madeABet.addTarget(self, action: #selector(showMadeBet), for: .touchUpInside)
+    }
+
+    @objc func showMadeBet() {
+        _ = MotivatedView.show(in: self)
+    }
+
+    @objc func showAbstainedView() {
+        _ = CongratsView.show(in: self)
     }
 
     @objc func motivationTapped() {

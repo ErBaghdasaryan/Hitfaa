@@ -16,6 +16,7 @@
 		CC6042382CD4B83A00E8321B /* SwinjectAutoregistration in Frameworks */ = {isa = PBXBuildFile; productRef = CC6042372CD4B83A00E8321B /* SwinjectAutoregistration */; };
 		CC60423D2CD4B89F00E8321B /* HitfaaModel in Frameworks */ = {isa = PBXBuildFile; productRef = CC60423C2CD4B89F00E8321B /* HitfaaModel */; };
 		CC60423F2CD4B89F00E8321B /* HitfaaViewModel in Frameworks */ = {isa = PBXBuildFile; productRef = CC60423E2CD4B89F00E8321B /* HitfaaViewModel */; };
+		CC66DD242CE1E298006D758A /* MotivatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC66DD232CE1E298006D758A /* MotivatedView.swift */; };
 		CC679D8C2CDDFF5800DAB639 /* DiaryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D8B2CDDFF5800DAB639 /* DiaryTableViewCell.swift */; };
 		CC679D8E2CDE009100DAB639 /* AddDairyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D8D2CDE009100DAB639 /* AddDairyTableViewCell.swift */; };
 		CC679D912CDE02AE00DAB639 /* AddDairyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC679D902CDE02AE00DAB639 /* AddDairyViewController.swift */; };
@@ -104,6 +105,7 @@
 		CC60421C2CD4B5BC00E8321B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC6042272CD4B7DD00E8321B /* HitfaaViewModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HitfaaViewModel; sourceTree = "<group>"; };
 		CC6042282CD4B7ED00E8321B /* HitfaaModel */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = HitfaaModel; sourceTree = "<group>"; };
+		CC66DD232CE1E298006D758A /* MotivatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivatedView.swift; sourceTree = "<group>"; };
 		CC679D8B2CDDFF5800DAB639 /* DiaryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryTableViewCell.swift; sourceTree = "<group>"; };
 		CC679D8D2CDE009100DAB639 /* AddDairyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDairyTableViewCell.swift; sourceTree = "<group>"; };
 		CC679D902CDE02AE00DAB639 /* AddDairyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDairyViewController.swift; sourceTree = "<group>"; };
@@ -351,6 +353,7 @@
 			isa = PBXGroup;
 			children = (
 				CC679DC12CDE72DA00DAB639 /* CongratsView.swift */,
+				CC66DD232CE1E298006D758A /* MotivatedView.swift */,
 			);
 			path = HomeViews;
 			sourceTree = "<group>";
@@ -746,6 +749,7 @@
 				CC687EC92CDBC2B600CDBB27 /* CollectionView.swift in Sources */,
 				CC679DB42CDE3DB200DAB639 /* EditResourceAssembly.swift in Sources */,
 				CC687EE72CDBCCBF00CDBB27 /* OnboardingCell.swift in Sources */,
+				CC66DD242CE1E298006D758A /* MotivatedView.swift in Sources */,
 				CC679DB22CDE3DA900DAB639 /* EditResourceViewController.swift in Sources */,
 				CC687F002CDC995F00CDBB27 /* DiaryViewController.swift in Sources */,
 				CC687F122CDC99A400CDBB27 /* ChecklistViewController.swift in Sources */,
