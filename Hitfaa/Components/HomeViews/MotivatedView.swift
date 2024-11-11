@@ -159,7 +159,7 @@ extension MotivatedView: UITextFieldDelegate {
     }
 
     private func updateButtonBackgroundColor() {
-        let allFieldsFilled = !checkAllFields()
+        _ = !checkAllFields()
     }
 
     private func checkAllFields() -> Bool {

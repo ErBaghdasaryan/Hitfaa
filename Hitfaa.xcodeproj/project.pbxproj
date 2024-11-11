@@ -69,7 +69,6 @@
 		CC687EF12CDC96A500CDBB27 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EF02CDC96A500CDBB27 /* TabBarRouter.swift */; };
 		CC687EF32CDC96AC00CDBB27 /* TabBarAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EF22CDC96AC00CDBB27 /* TabBarAssembly.swift */; };
 		CC687EFA2CDC994D00CDBB27 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EF92CDC994D00CDBB27 /* HomeViewController.swift */; };
-		CC687EFC2CDC995200CDBB27 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EFB2CDC995200CDBB27 /* HomeRouter.swift */; };
 		CC687EFE2CDC995800CDBB27 /* HomeAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EFD2CDC995800CDBB27 /* HomeAssembly.swift */; };
 		CC687F002CDC995F00CDBB27 /* DiaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687EFF2CDC995F00CDBB27 /* DiaryViewController.swift */; };
 		CC687F022CDC996500CDBB27 /* DiaryRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F012CDC996500CDBB27 /* DiaryRouter.swift */; };
@@ -158,7 +157,6 @@
 		CC687EF02CDC96A500CDBB27 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
 		CC687EF22CDC96AC00CDBB27 /* TabBarAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAssembly.swift; sourceTree = "<group>"; };
 		CC687EF92CDC994D00CDBB27 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		CC687EFB2CDC995200CDBB27 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		CC687EFD2CDC995800CDBB27 /* HomeAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAssembly.swift; sourceTree = "<group>"; };
 		CC687EFF2CDC995F00CDBB27 /* DiaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryViewController.swift; sourceTree = "<group>"; };
 		CC687F012CDC996500CDBB27 /* DiaryRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryRouter.swift; sourceTree = "<group>"; };
@@ -496,7 +494,6 @@
 			isa = PBXGroup;
 			children = (
 				CC687EF92CDC994D00CDBB27 /* HomeViewController.swift */,
-				CC687EFB2CDC995200CDBB27 /* HomeRouter.swift */,
 				CC687EFD2CDC995800CDBB27 /* HomeAssembly.swift */,
 			);
 			path = Home;
@@ -736,7 +733,6 @@
 				CC679DAC2CDE238600DAB639 /* EditRelaxAssembly.swift in Sources */,
 				CC679D932CDE02B500DAB639 /* AddDairyAssembly.swift in Sources */,
 				CC687F332CDD1D7F00CDBB27 /* StatisticView.swift in Sources */,
-				CC687EFC2CDC995200CDBB27 /* HomeRouter.swift in Sources */,
 				CC679DBF2CDE63E600DAB639 /* DistributionView.swift in Sources */,
 				CC679D912CDE02AE00DAB639 /* AddDairyViewController.swift in Sources */,
 				CC687EFE2CDC995800CDBB27 /* HomeAssembly.swift in Sources */,

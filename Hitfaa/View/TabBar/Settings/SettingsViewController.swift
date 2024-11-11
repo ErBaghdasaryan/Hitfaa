@@ -131,7 +131,6 @@ extension SettingsViewController {
     }
 
     @objc func rateTapped() {
-        guard let scene = view.window?.windowScene else { return }
         if #available(iOS 14.0, *) {
             SKStoreReviewController.requestReview()
         } else {
