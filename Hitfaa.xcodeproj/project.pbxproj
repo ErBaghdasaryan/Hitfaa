@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC5A8A7F2CE63D49007D0D02 /* UsageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5A8A7E2CE63D49007D0D02 /* UsageViewController.swift */; };
 		CC60420F2CD4B5BB00E8321B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC60420E2CD4B5BB00E8321B /* AppDelegate.swift */; };
 		CC6042112CD4B5BB00E8321B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6042102CD4B5BB00E8321B /* SceneDelegate.swift */; };
 		CC6042182CD4B5BC00E8321B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6042172CD4B5BC00E8321B /* Assets.xcassets */; };
@@ -97,6 +98,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC5A8A7E2CE63D49007D0D02 /* UsageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageViewController.swift; sourceTree = "<group>"; };
 		CC60420B2CD4B5BB00E8321B /* Hitfaa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hitfaa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC60420E2CD4B5BB00E8321B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC6042102CD4B5BB00E8321B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -201,6 +203,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC5A8A7D2CE63D40007D0D02 /* Usage */ = {
+			isa = PBXGroup;
+			children = (
+				CC5A8A7E2CE63D49007D0D02 /* UsageViewController.swift */,
+			);
+			path = Usage;
+			sourceTree = "<group>";
+		};
 		CC6042022CD4B5BB00E8321B = {
 			isa = PBXGroup;
 			children = (
@@ -562,6 +572,7 @@
 		CC687F1A2CDCD9CA00CDBB27 /* Settings */ = {
 			isa = PBXGroup;
 			children = (
+				CC5A8A7D2CE63D40007D0D02 /* Usage */,
 				CC687F1B2CDCD9D500CDBB27 /* SettingsViewController.swift */,
 				CC687F1D2CDCD9DE00CDBB27 /* SettingsRouter.swift */,
 				CC687F1F2CDCD9E900CDBB27 /* SettingsAssembly.swift */,
@@ -700,6 +711,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5A8A7F2CE63D49007D0D02 /* UsageViewController.swift in Sources */,
 				CC60420F2CD4B5BB00E8321B /* AppDelegate.swift in Sources */,
 				CC687F232CDCDB7600CDBB27 /* SettingsView.swift in Sources */,
 				CC679DA22CDE179C00DAB639 /* AddRelaxTableViewCell.swift in Sources */,
@@ -912,7 +924,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hitfaa/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "game: помощь в борьбе с зависимостью";
+				INFOPLIST_KEY_CFBundleDisplayName = "game: help with addiction";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -923,7 +935,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.er.Hitfaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ter.g4m3h3lpw4dd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -945,7 +957,7 @@
 				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Hitfaa/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "game: помощь в борьбе с зависимостью";
+				INFOPLIST_KEY_CFBundleDisplayName = "game: help with addiction";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -956,7 +968,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.er.Hitfaa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ter.g4m3h3lpw4dd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

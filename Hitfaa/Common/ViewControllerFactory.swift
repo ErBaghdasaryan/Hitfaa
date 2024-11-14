@@ -45,6 +45,11 @@ final class ViewControllerFactory {
         return viewController
     }
 
+    static func makeUsageViewController() -> UsageViewController {
+        let viewController = UsageViewController()
+        return viewController
+    }
+
     //MARK: - Profile
     static func makeProfileViewController() -> ProfileViewController {
         let assembler = Assembler(commonAssemblies + [ProfileAssembly()])

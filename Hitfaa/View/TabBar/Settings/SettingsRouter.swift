@@ -11,9 +11,9 @@ import HitfaaViewModel
 
 final class SettingsRouter: BaseRouter {
     static func showUsageViewController(in navigationController: UINavigationController) {
-//        let viewController = ViewControllerFactory.makeUsageViewController()
-//        navigationController.navigationBar.isHidden = false
-//        navigationController.navigationItem.hidesBackButton = false
-//        navigationController.pushViewController(viewController, animated: true)
+        let viewController = ViewControllerFactory.makeUsageViewController()
+        navigationController.navigationBar.isHidden = false
+        navigationController.navigationItem.hidesBackButton = false
+        navigationController.pushViewController(viewController, animated: true)
     }
 }
