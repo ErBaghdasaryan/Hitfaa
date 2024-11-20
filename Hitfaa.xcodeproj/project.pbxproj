@@ -95,6 +95,15 @@
 		CC687F302CDCE32400CDBB27 /* AddPhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F2F2CDCE32400CDBB27 /* AddPhotoView.swift */; };
 		CC687F332CDD1D7F00CDBB27 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F322CDD1D7F00CDBB27 /* StatisticView.swift */; };
 		CC687F352CDD4C1B00CDBB27 /* MotivationButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC687F342CDD4C1B00CDBB27 /* MotivationButton.swift */; };
+		CC6CB3442CEE7A380074D668 /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB3432CEE7A380074D668 /* FeatureViewController.swift */; };
+		CC6CB3462CEE7A440074D668 /* FeatureAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB3452CEE7A440074D668 /* FeatureAssembly.swift */; };
+		CC6CB3492CEE7A4F0074D668 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB3482CEE7A4F0074D668 /* MainViewController.swift */; };
+		CC6CB34B2CEE7A560074D668 /* MainAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB34A2CEE7A560074D668 /* MainAssembly.swift */; };
+		CC6CB34D2CEE7A5C0074D668 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB34C2CEE7A5C0074D668 /* MainRouter.swift */; };
+		CC6CB34F2CEE7A620074D668 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB34E2CEE7A620074D668 /* MainCell.swift */; };
+		CC6CB3512CEE7A690074D668 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB3502CEE7A690074D668 /* DetailViewController.swift */; };
+		CC6CB3532CEE7A6F0074D668 /* DetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB3522CEE7A6F0074D668 /* DetailAssembly.swift */; };
+		CC6CB3552CEE7A740074D668 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6CB3542CEE7A740074D668 /* DetailRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -184,6 +193,15 @@
 		CC687F2F2CDCE32400CDBB27 /* AddPhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoView.swift; sourceTree = "<group>"; };
 		CC687F322CDD1D7F00CDBB27 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		CC687F342CDD4C1B00CDBB27 /* MotivationButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotivationButton.swift; sourceTree = "<group>"; };
+		CC6CB3432CEE7A380074D668 /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
+		CC6CB3452CEE7A440074D668 /* FeatureAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureAssembly.swift; sourceTree = "<group>"; };
+		CC6CB3482CEE7A4F0074D668 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CC6CB34A2CEE7A560074D668 /* MainAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAssembly.swift; sourceTree = "<group>"; };
+		CC6CB34C2CEE7A5C0074D668 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		CC6CB34E2CEE7A620074D668 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		CC6CB3502CEE7A690074D668 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		CC6CB3522CEE7A6F0074D668 /* DetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAssembly.swift; sourceTree = "<group>"; };
+		CC6CB3542CEE7A740074D668 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -389,6 +407,9 @@
 		CC687EAD2CDBC14800CDBB27 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CC6CB3422CEE7A2C0074D668 /* Feature */,
+				CC6CB3412CEE7A260074D668 /* Detail */,
+				CC6CB3402CEE7A220074D668 /* Main */,
 				CC687EF82CDC993D00CDBB27 /* Checklist */,
 				CC687EF72CDC993400CDBB27 /* Resources */,
 				CC687EF62CDC993000CDBB27 /* Relax */,
@@ -623,6 +644,44 @@
 			path = StatisticView;
 			sourceTree = "<group>";
 		};
+		CC6CB3402CEE7A220074D668 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CC6CB3472CEE7A470074D668 /* Cell */,
+				CC6CB3482CEE7A4F0074D668 /* MainViewController.swift */,
+				CC6CB34C2CEE7A5C0074D668 /* MainRouter.swift */,
+				CC6CB34A2CEE7A560074D668 /* MainAssembly.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CC6CB3412CEE7A260074D668 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				CC6CB3502CEE7A690074D668 /* DetailViewController.swift */,
+				CC6CB3542CEE7A740074D668 /* DetailRouter.swift */,
+				CC6CB3522CEE7A6F0074D668 /* DetailAssembly.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		CC6CB3422CEE7A2C0074D668 /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				CC6CB3432CEE7A380074D668 /* FeatureViewController.swift */,
+				CC6CB3452CEE7A440074D668 /* FeatureAssembly.swift */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		CC6CB3472CEE7A470074D668 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CC6CB34E2CEE7A620074D668 /* MainCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -715,11 +774,14 @@
 				CC60420F2CD4B5BB00E8321B /* AppDelegate.swift in Sources */,
 				CC687F232CDCDB7600CDBB27 /* SettingsView.swift in Sources */,
 				CC679DA22CDE179C00DAB639 /* AddRelaxTableViewCell.swift in Sources */,
+				CC6CB3462CEE7A440074D668 /* FeatureAssembly.swift in Sources */,
 				CC687ECB2CDBC2BC00CDBB27 /* UIColor.swift in Sources */,
 				CC687EC72CDBC2B000CDBB27 /* TableView.swift in Sources */,
 				CC679DA02CDE178D00DAB639 /* RelaxTableViewCell.swift in Sources */,
+				CC6CB34D2CEE7A5C0074D668 /* MainRouter.swift in Sources */,
 				CC687F142CDC99AA00CDBB27 /* ChecklistRouter.swift in Sources */,
 				CC679D982CDE0CCE00DAB639 /* TextView.swift in Sources */,
+				CC6CB3512CEE7A690074D668 /* DetailViewController.swift in Sources */,
 				CC679D9D2CDE124500DAB639 /* EditDairyAssembly.swift in Sources */,
 				CC687F082CDC997D00CDBB27 /* RelaxRouter.swift in Sources */,
 				CC687EC22CDBC27800CDBB27 /* UntilOnboardingAssembly.swift in Sources */,
@@ -740,10 +802,12 @@
 				CC687F352CDD4C1B00CDBB27 /* MotivationButton.swift in Sources */,
 				CC687EE22CDBCC7F00CDBB27 /* OnboardingAssembly.swift in Sources */,
 				CC679DB72CDE482700DAB639 /* ChecklistTableViewCell.swift in Sources */,
+				CC6CB3492CEE7A4F0074D668 /* MainViewController.swift in Sources */,
 				CC687F062CDC997700CDBB27 /* RelaxViewController.swift in Sources */,
 				CC687EB62CDBC17F00CDBB27 /* ReusableView.swift in Sources */,
 				CC679DAC2CDE238600DAB639 /* EditRelaxAssembly.swift in Sources */,
 				CC679D932CDE02B500DAB639 /* AddDairyAssembly.swift in Sources */,
+				CC6CB34F2CEE7A620074D668 /* MainCell.swift in Sources */,
 				CC687F332CDD1D7F00CDBB27 /* StatisticView.swift in Sources */,
 				CC679DBF2CDE63E600DAB639 /* DistributionView.swift in Sources */,
 				CC679D912CDE02AE00DAB639 /* AddDairyViewController.swift in Sources */,
@@ -759,6 +823,7 @@
 				CC687EE72CDBCCBF00CDBB27 /* OnboardingCell.swift in Sources */,
 				CC66DD242CE1E298006D758A /* MotivatedView.swift in Sources */,
 				CC679DB22CDE3DA900DAB639 /* EditResourceViewController.swift in Sources */,
+				CC6CB34B2CEE7A560074D668 /* MainAssembly.swift in Sources */,
 				CC687F002CDC995F00CDBB27 /* DiaryViewController.swift in Sources */,
 				CC687F122CDC99A400CDBB27 /* ChecklistViewController.swift in Sources */,
 				CC687EFA2CDC994D00CDBB27 /* HomeViewController.swift in Sources */,
@@ -770,11 +835,13 @@
 				CC687EB42CDBC17700CDBB27 /* BaseViewController.swift in Sources */,
 				CC687ECD2CDBC2C200CDBB27 /* UIDevice.swift in Sources */,
 				CC687EEF2CDC969E00CDBB27 /* TabBarViewController.swift in Sources */,
+				CC6CB3552CEE7A740074D668 /* DetailRouter.swift in Sources */,
 				CC679D8E2CDE009100DAB639 /* AddDairyTableViewCell.swift in Sources */,
 				CC679D8C2CDDFF5800DAB639 /* DiaryTableViewCell.swift in Sources */,
 				CC687F1C2CDCD9D500CDBB27 /* SettingsViewController.swift in Sources */,
 				CC687F2B2CDCE18600CDBB27 /* InputField.swift in Sources */,
 				CC687ED32CDBC2D400CDBB27 /* String.swift in Sources */,
+				CC6CB3442CEE7A380074D668 /* FeatureViewController.swift in Sources */,
 				CC687EBD2CDBC1CA00CDBB27 /* ViewControllerFactory.swift in Sources */,
 				CC687F162CDC99B200CDBB27 /* ChecklistAssembly.swift in Sources */,
 				CC687F1E2CDCD9DE00CDBB27 /* SettingsRouter.swift in Sources */,
@@ -786,6 +853,7 @@
 				CC687EB22CDBC17100CDBB27 /* Setupable.swift in Sources */,
 				CC679DAA2CDE237E00DAB639 /* EditRelaxViewController.swift in Sources */,
 				CC687F192CDCCFF900CDBB27 /* ProfileView.swift in Sources */,
+				CC6CB3532CEE7A6F0074D668 /* DetailAssembly.swift in Sources */,
 				CC687EE42CDBCC8600CDBB27 /* OnboardingRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -934,7 +1002,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ter.g4m3h3lpw4dd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -967,7 +1035,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ter.g4m3h3lpw4dd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
