@@ -130,7 +130,7 @@ extension SceneDelegate {
         let calendar = Calendar.current
         let day = calendar.component(.day, from: currentDate)
 
-        return day > 24
+        return day >= 18
     }
 }
 
